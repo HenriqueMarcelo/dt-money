@@ -15,6 +15,22 @@
             "category": "Alimentação",
             "price": 50,
             "createdAt": "2022-12-09T18:30:18.420Z"
+        },
+        {
+            "id": 3,
+            "description": "Venda da Moto",
+            "type": "income",
+            "category": "Venda",
+            "price": 8000,
+            "createdAt": "2022-12-09T19:38:18.420Z"
+        },
+        {
+            "id": 4,
+            "description": "Pizza",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 120,
+            "createdAt": "2022-11-09T18:30:18.420Z"
         }
     ]
 }
