@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "lint": "eslint src --ext .tsx,.ts --fix",
+    "lint": "eslint src --ext .tsx,.ts",
+    "lint-fix": "eslint src --ext .tsx,.ts --fix",
     "dev-server": "json-server server.json -w -d 500",
     "dev": "vite",
     "build": "tsc && vite build",
