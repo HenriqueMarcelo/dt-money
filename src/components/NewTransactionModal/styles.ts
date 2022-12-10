@@ -53,7 +53,12 @@ export const Content = styled(Dialog.Content)`
     cursor: pointer;
     transition: all 0.2s;
 
-    &:hover {
+    &:disabled {
+      opacity: 0.6;
+      cursor: wait;
+    }
+
+    &:not(:disabled):hover {
       background-color: ${({ theme }) => theme['green-700']};
     }
   }
@@ -81,10 +86,8 @@ interface TransactionTypeButtonProps {
   variant: 'income' | 'outcome'
 }
 
-// export const TransactionTypeButton = styled(
-export const TransactionTypeButton = styled(
-  RadioGroup.Item,
-)<TransactionTypeButtonProps>`
+// eslint-disable-next-line prettier/prettier
+export const TransactionTypeButton = styled( RadioGroup.Item )<TransactionTypeButtonProps>`
   background-color: ${({ theme }) => theme['gray-700']};
   padding: 1rem;
   display: flex;
