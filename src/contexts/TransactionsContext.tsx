@@ -64,7 +64,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
 
   useEffect(() => {
     fatchTransactions()
-  }, [])
+  }, [fatchTransactions])
 
   return (
     <TransactionsContext.Provider
