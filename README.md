@@ -45,5 +45,3 @@ A- PI REST: architecture standard for building web APIs;
 ## Conclusion
 
 The "DT Money" project is a great example of how to use these technologies and concepts to build a modern and efficient web application.
-
-Translated with www.DeepL.com/Translator (free version)
