@@ -6,6 +6,8 @@ The "DT Money" project was developed during Rocketseat's "Ignite" course, with t
 
 During the development of the project, several technologies and concepts important for the development of modern web applications were used.
 
+DT Money is hosted on GitHub Pages and can be accessed at: https://henriquemarcelo.github.io/dt-money/
+
 ## Technologies
 
 Libraries were used such as:
